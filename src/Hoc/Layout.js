@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from "../Components/header_footer/Header";
 
 const Layout = (props) => {
     return (
-        <Layout>
-            Second Line
-        </Layout>
+        <div>
+            <Header />
+            {props.children}
+        </div>
     );
 };
 
