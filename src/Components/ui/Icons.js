@@ -9,9 +9,9 @@ import mcityLogo from '../../Resources/images/logos/manchester_city_logo.png';
             className='img_cover'
             style={{
                 width: props.width,
-                height: props.height
+                height: props.height,
+                background: `url(${mcityLogo}) no-repeat`
             }}>
-            logo
         </div>;
 
      if(props.link){
