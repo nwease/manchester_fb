@@ -414,7 +414,7 @@ footer .footer_discl {
     border: 1px solid #ececec;
     width: 300px;
     padding: 10px 10px 20px 10px;
-    font-family: 'Righteous';
+    font-family: 'Righteous', serif;
 }
 .player_card_wrapper .player_card_thmb {
     border: 1px solid #eeeeee;
