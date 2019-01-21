@@ -13,6 +13,7 @@ import {Link} from 'react-router-dom';
                 fontFamily: 'Righteous'
             }}
         >
+            {props.children}
         </div>;
 
      if(props.link){
