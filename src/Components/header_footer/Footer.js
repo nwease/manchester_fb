@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
 
             <div className="footer_disclaimer">
-                Manchester City 2019. 2019 All Rights Reserved.
+                Manchester City 2019. All Rights Reserved.
             </div>
         </footer>
     );
