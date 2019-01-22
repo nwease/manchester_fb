@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { firebaseMatches } from "../../../firebase";
 import { firebaseLoop, reverseArray } from "../../ui/miscellaneous";
+import MatchesBlock from "../../ui/matches_block";
 
 class Blocks extends Component {
 
@@ -18,10 +19,16 @@ class Blocks extends Component {
         })
     }
 
-    showMatches = () => (
-        <div>
-            MATCHES
-        </div>
+    showMatches = (matches) => (
+        matches ?
+            matches.map((match) => (
+                <div className='item' key={match}>
+                    <div className='wrapper' key={matches}>
+                        <MatchesBlock match={match} />
+                    </div>
+                </div>
+            ))
+        :null
     );
 
     render() {
