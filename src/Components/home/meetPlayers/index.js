@@ -34,6 +34,8 @@ class MeetPlayers extends Component {
                                 </Tag>
                             </div>
 
+                            <br />
+
                             <div>
                                 <Tag bck="#0e1731"
                                      size="100px"
@@ -45,6 +47,8 @@ class MeetPlayers extends Component {
                                 </Tag>
                             </div>
 
+                            <br />
+
                             <div>
                                 <Tag bck="#0e1731"
                                      size="100px"
@@ -55,6 +59,8 @@ class MeetPlayers extends Component {
                                     Players
                                 </Tag>
                             </div>
+
+                            <br />
 
                             <div>
                                 <Tag
