@@ -18,7 +18,7 @@ import {Link} from 'react-router-dom';
 
      if(props.link){
         return (
-            <Link to={props.linkTo}>
+            <Link to={props}>
                 {template}
             </Link>
         )
@@ -34,7 +34,7 @@ import {Link} from 'react-router-dom';
             ...childSnapshot.val(),
             id: childSnapshot.key
         })
-    })
+    });
      return data
  };
 
