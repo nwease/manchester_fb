@@ -3,7 +3,23 @@ import React from 'react';
 const PlayerCard = (props) => {
     return (
         <div className='player_card_wrapper'>
-            PLAYER
+            <div
+                className='player_card_thumbnail'
+                style={{
+                    background: `#f2f9ff url(${props.bck})`
+                }}>
+            </div>
+
+            <div className="player_card_info">
+                <div className="player_card_number">
+                    {props.number}
+                </div>
+
+                <div className="player_card_name">
+                    <span>{props.name}</span>
+                    <span>{props.lastname}</span>
+                </div>
+            </div>
         </div>
     );
 };
