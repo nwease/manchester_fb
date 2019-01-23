@@ -1,33 +1,55 @@
-import React from 'react';
-import Zoom from 'react-reveal/Zoom';
-import Jersey from '../../../Resources/images/jersey.jpg';
+import React, {Component} from 'react';
+import Fade from 'react-reveal/Fade';
+import FormField from "../../ui/FormField";
 
-const PromotionAnimation = () => {
-    return (
-        <div className='promotion_animation'>
-            <div className="left">
-                <Zoom>
-                    <div>
-                        <span>
-                            Win a
-                        </span>
+class Enroll extends Component {
 
-                        <span>
-                            Jersey
-                        </span>
-                    </div>
-                </Zoom>
-            </div>
+    state = {
+        formError: false,
+        formSuccess: '',
+        formData: {
+            email: {
+                element: 'input',
+                value: '',
+                config: {
+                    name: 'email_input',
+                    type: 'email',
+                    placeholder: 'Enter your email'
+                },
+                validation: {
+                    required: true,
+                    email: true
+                },
+                valid: false,
+                validationMessage: ''
+            }
+        }
+    };
 
-            <div className="right">
-                <Zoom>
-                    <div style={{background: `url(${Jersey}) no-repeat`}}>
+    submitForm() {
 
-                    </div>
-                </Zoom>
-            </div>
-        </div>
-    );
-};
+    }
 
-export default PromotionAnimation;
+    render() {
+        return (
+            <Fade>
+                <div className='enroll_wrapper'>
+                    <form onSubmit={(event) => this.submitForm(event)}>
+                        <div className='enroll_title'>
+                            Enter your email
+                        </div>
+
+                        <div className="enroll_input">
+                            <FormField
+                                id={'email'}
+                                formData={this.state.formData.email}
+                            />
+                        </div>
+                    </form>
+                </div>
+            </Fade>
+        );
+    }
+}
+
+export default Enroll;
