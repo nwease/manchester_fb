@@ -4,8 +4,6 @@
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ui/FormField.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ui/FormField.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ui/miscellaneous.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ui/miscellaneous.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Enroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="502">
+              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -173,7 +171,7 @@
       <workItem from="1548752588691" duration="255000" />
       <workItem from="1548861263125" duration="46000" />
       <workItem from="1548861364517" duration="245000" />
-      <workItem from="1549276443271" duration="1634000" />
+      <workItem from="1549276443271" duration="3692000" />
     </task>
     <task id="LOCAL-00001" summary="Began work on Header component.">
       <created>1547812018778</created>
@@ -357,11 +355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548381963255</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Worked on form validation component.">
+      <created>1549278995561</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1549278995561</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Continued work on form validation component.">
+      <created>1549280488007</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1549280488007</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53249000" />
+    <option name="totallyTimeSpent" value="55307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1206" y="23" width="714" height="1057" extended-state="0" />
@@ -438,8 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Continued work on Header Component." />
-    <MESSAGE value="Finished Header and started on Footer." />
     <MESSAGE value="Started work on Body animation component." />
     <MESSAGE value="Work on striped animation in the body component." />
     <MESSAGE value="Worked on Text animation." />
@@ -463,7 +473,9 @@
     <MESSAGE value="Continued working on Promotions." />
     <MESSAGE value="Worked on formfields." />
     <MESSAGE value="Continued work on formfields." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued work on formfields." />
+    <MESSAGE value="Worked on form validation component." />
+    <MESSAGE value="Continued work on form validation component." />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued work on form validation component." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -678,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Enroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="502">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
