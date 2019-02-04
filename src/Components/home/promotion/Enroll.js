@@ -45,8 +45,11 @@ class Enroll extends Component {
        })
     }
 
-    submitForm() {
+    submitForm(event) {
+        event.preventDefault();
 
+        let submittedData = {};
+        let validForm = true;
     }
 
     render() {
@@ -64,6 +67,8 @@ class Enroll extends Component {
                                 formData={this.state.formData.email}
                                 change={(element) => this.updateForm(element)}
                             />
+
+                            <button onClick={(event) => this.submitForm(event)}>Enroll</button>
                         </div>
                     </form>
                 </div>
