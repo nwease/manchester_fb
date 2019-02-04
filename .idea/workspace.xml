@@ -4,6 +4,8 @@
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="207">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Enroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            <state relative-caret-position="309">
+              <caret line="129" column="154" lean-forward="true" selection-start-line="129" selection-start-column="154" selection-end-line="129" selection-end-column="154" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -61,15 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Animation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -90,11 +83,9 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/home/matches/index.js" />
         <option value="$PROJECT_DIR$/src/Firebase.js" />
-        <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/header_footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/home/matches/Blocks.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/matches_block.js" />
-        <option value="$PROJECT_DIR$/src/Resources/css/app.css" />
         <option value="$PROJECT_DIR$/src/Components/home/meetPlayers/index.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/playerCard.js" />
         <option value="$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js" />
@@ -104,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/Components/ui/FormFields.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/miscellaneous.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/FormField.js" />
+        <option value="$PROJECT_DIR$/src/firebase.js" />
+        <option value="$PROJECT_DIR$/src/Resources/css/app.css" />
         <option value="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" />
       </list>
     </option>
@@ -119,7 +112,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -171,7 +188,7 @@
       <workItem from="1548752588691" duration="255000" />
       <workItem from="1548861263125" duration="46000" />
       <workItem from="1548861364517" duration="245000" />
-      <workItem from="1549276443271" duration="3692000" />
+      <workItem from="1549276443271" duration="7058000" />
     </task>
     <task id="LOCAL-00001" summary="Began work on Header component.">
       <created>1547812018778</created>
@@ -369,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549280488007</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Set up success and error in form.">
+      <created>1549281243175</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1549281243175</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55307000" />
+    <option name="totallyTimeSpent" value="58673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1206" y="23" width="714" height="1057" extended-state="0" />
@@ -392,7 +416,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49107143" visible="true" weight="0.34457323" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49107143" visible="true" weight="0.34457323" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5089286" side_tool="true" weight="0.34457323" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.312961" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
@@ -450,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started work on Body animation component." />
     <MESSAGE value="Work on striped animation in the body component." />
     <MESSAGE value="Worked on Text animation." />
     <MESSAGE value="Finished Work on Text and Player animation." />
@@ -475,7 +498,8 @@
     <MESSAGE value="Continued work on formfields." />
     <MESSAGE value="Worked on form validation component." />
     <MESSAGE value="Continued work on form validation component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued work on form validation component." />
+    <MESSAGE value="Set up success and error in form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up success and error in form." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -566,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/home/matches/Blocks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -590,13 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="389" column="28" lean-forward="true" selection-start-line="389" selection-start-column="28" selection-end-line="389" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -654,16 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Animation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -688,10 +685,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="498" column="39" lean-forward="true" selection-start-line="498" selection-start-column="39" selection-end-line="498" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Enroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="309">
+          <caret line="129" column="154" lean-forward="true" selection-start-line="129" selection-start-column="154" selection-end-line="129" selection-end-column="154" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

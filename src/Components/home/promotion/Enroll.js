@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade';
 import FormField from "../../ui/FormField";
 import {validate} from '../../ui/miscellaneous';
+import {firebasePromotions} from "../../../firebase";
 
 class Enroll extends Component {
 
@@ -45,7 +46,7 @@ class Enroll extends Component {
        })
     }
 
-    formSuccess(){
+    formSuccess(type){
         const newFormData = {...this.state.formData};
 
         for(let key in newFormData){
@@ -57,8 +58,17 @@ class Enroll extends Component {
         this.setState({
             formError: false,
             formData: newFormData,
-            formSuccess: 'SUCCESS'
-        })
+            formSuccess: type ? 'SUCCESS' : 'On the database'
+        });
+        this.successMessage();
+    }
+
+    successMessage(){
+        setTimeout(() => {
+            this.setState({
+                formSuccess: ''
+            })
+        }, 2000)
     }
 
     submitForm(event) {
@@ -73,8 +83,15 @@ class Enroll extends Component {
         }
 
         if(validForm){
-            console.log(submittedData);
-            this.formSuccess()
+            firebasePromotions.orderByChild('email').equalTo(submittedData.email).once('value')
+                .then((snapshot) => {
+                    if(snapshot.val() === null){
+                        firebasePromotions.push(submittedData);
+                        this.formSuccess(true)
+                    } else {
+                        this.formSuccess(false)
+                    }
+                })
         } else {
             this.setState({
                 formError: true
@@ -108,6 +125,10 @@ class Enroll extends Component {
                             </div>
 
                             <button onClick={(event) => this.submitForm(event)}>Click Here</button>
+                            <div className="enroll_disclaimer">
+                                This information is provided by Manchester FB we make no representations or warranties of any kind, about the completeness, accuracy, reliability,
+                                or availability to the website or the information, products, services, or related graphics on the website for any purpose.
+                            </div>
                         </div>
                     </form>
                 </div>
