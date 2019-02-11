@@ -29,21 +29,21 @@ class Enroll extends Component {
     };
 
     updateForm(element) {
-       const newFormData = {...this.state.formData};
-       const newElement = {...newFormData[element.id]};
+        const newFormData = {...this.state.formData};
+        const newElement = {...newFormData[element.id]};
 
-       newElement.value = element.event.target.value;
+        newElement.value = element.event.target.value;
 
-       let validData = validate(newElement);
-       newElement.valid = validData[0];
-       newElement.validationMessage = validData[0];
+        let validData = validate(newElement);
+        newElement.valid = validData[0];
+        newElement.validationMessage = validData[0];
 
-       newFormData[element.id] = newElement;
+        newFormData[element.id] = newElement;
 
-       this.setState({
-           formError: false,
-           formData: newFormData
-       })
+        this.setState({
+            formError: false,
+            formData: newFormData
+        })
     }
 
     formSuccess(type){
