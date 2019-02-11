@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/signin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/admin/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/home/promotion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/home/promotion/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,22 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Enroll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="161">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,22 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/signin/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/admin/Dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="651" column="18" lean-forward="true" selection-start-line="651" selection-start-column="18" selection-end-line="651" selection-end-column="18" />
+            <state relative-caret-position="138">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,12 +68,13 @@
         <option value="$PROJECT_DIR$/src/Components/ui/FormFields.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/miscellaneous.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/FormField.js" />
-        <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/home/promotion/index.js" />
-        <option value="$PROJECT_DIR$/src/Routes.js" />
         <option value="$PROJECT_DIR$/src/Resources/css/app.css" />
         <option value="$PROJECT_DIR$/src/Components/home/promotion/Enroll.js" />
+        <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/signin/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/admin/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/Routes.js" />
       </list>
     </option>
   </component>
@@ -132,13 +107,6 @@
               <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="signin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +169,7 @@
       <workItem from="1549366447303" duration="248000" />
       <workItem from="1549449793010" duration="18000" />
       <workItem from="1549873627132" duration="47000" />
-      <workItem from="1549873789019" duration="4290000" />
+      <workItem from="1549873789019" duration="6516000" />
     </task>
     <task id="LOCAL-00001" summary="Began work on Header component.">
       <created>1547812018778</created>
@@ -413,16 +381,31 @@
       <option name="project" value="LOCAL" />
       <updated>1549310150518</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Setup sign-in class component.">
+      <created>1549878977772</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1549878977773</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Finished sign-in component.">
+      <created>1549880849501</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1549880849502</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63896000" />
+    <option name="totallyTimeSpent" value="66122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1205" y="23" width="715" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2793462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27340266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -435,9 +418,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.32689655" weight="0.29567054" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.32689655" visible="true" weight="0.29567054" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.67310345" side_tool="true" weight="0.29567054" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.312566" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.312566" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
       <window_info anchor="bottom" id="Quokka" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32982087" />
@@ -493,8 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Worked on Text animation." />
-    <MESSAGE value="Finished Work on Text and Player animation." />
     <MESSAGE value="Began setup of matches component." />
     <MESSAGE value="Continued work on matches component." />
     <MESSAGE value="Began initial setup of team component." />
@@ -518,7 +499,9 @@
     <MESSAGE value="Continued work on form validation component." />
     <MESSAGE value="Set up success and error in form." />
     <MESSAGE value="Finished the form component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the form component." />
+    <MESSAGE value="Setup sign-in class component." />
+    <MESSAGE value="Finished sign-in component." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished sign-in component." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -677,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -721,20 +694,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.js">
+    <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="69">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/home/promotion/Enroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="463">
+          <caret line="120" column="29" lean-forward="true" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -743,11 +716,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/signin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        <state relative-caret-position="167">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/admin/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
