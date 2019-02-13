@@ -1,12 +1,15 @@
 import React from 'react';
+import AdminLayout from "../../Hoc/AdminLayout";
 
 const Dashboard = () => {
     return (
-        <div className='user_dashboard'>
-            <div>
-                DASHBOARD
+        <AdminLayout>
+            <div className='user_dashboard'>
+                <div>
+                    DASHBOARD
+                </div>
             </div>
-        </div>
+        </AdminLayout>
     );
 };
 
