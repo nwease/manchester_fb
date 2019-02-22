@@ -3,13 +3,11 @@ import React from 'react';
 const FormField = ({formData, id, change}) => {
 
     const showError = () => {
-        let messageError =
-            <div className='error_label'>
-                {
-                    formData.validation && !formData.valid ? formData.validationMessage :null
-                }
-            </div>
-        return messageError
+        return <div className='error_label'>
+            {
+                formData.validation && !formData.valid ? formData.validationMessage : null
+            }
+        </div>
     };
 
     const renderTemplate = () => {
@@ -19,6 +17,7 @@ const FormField = ({formData, id, change}) => {
             case('input'):
                 formTemplate = (
                     <div>
+                        {formData.showLabel ? <div className='label_inputs'>{formData.config.label}</div> :null}
                         <input
                             {...formData.config}
                             value={formData.value}
