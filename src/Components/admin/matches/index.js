@@ -20,7 +20,7 @@ class Matches extends Component {
 
     componentDidMount() {
         firebaseMatches.once('value').then((snapshot) => {
-            const matches = firebaseLoop(snapshot)
+            const matches = firebaseLoop(snapshot);
 
             this.setState({
                 isLoading: false,
@@ -32,11 +32,49 @@ class Matches extends Component {
     render() {
         return (
             <AdminLayout>
-                <div className='admin_progress'>
-                    { this.state.isLoading ?
-                        <CircularProgress thickness={7} style={{color:'#98c5e9'}} />
-                        :''
-                    }
+                <div>
+                    <Paper>
+                        <Table>
+                            <TableHead>
+                                <TableRow>
+                                    <TableCell>Date</TableCell>
+                                    <TableCell>Match</TableCell>
+                                    <TableCell>Result</TableCell>
+                                    <TableCell>Final</TableCell>
+                                </TableRow>
+                            </TableHead>
+
+                            <TableBody>
+                                {this.state.matches ? this.state.matches.map((match, i) => (
+                                    <TableRow key={i}>
+                                        <TableCell>
+                                            {match.date}
+                                        </TableCell>
+
+                                        <TableCell>
+                                            <Link to={`/admin_matches/edit_match/${match.id}`}>
+                                                {match.away} <strong>-</strong> {match.local}
+                                            </Link>
+                                        </TableCell>
+
+                                        <TableCell>
+                                            {match.resultAway} <strong>-</strong> {match.resultLocal}
+                                        </TableCell>
+
+                                        <TableCell>
+                                            {match.final === 'yes' ? <span className='matches_tag_red'>Final</span> : <span className='matches_tag_green'>Not Played Yet</span>}
+                                        </TableCell>
+                                    </TableRow>
+                                )) :null}
+                            </TableBody>
+                        </Table>
+                    </Paper>
+                    <div className='admin_progress'>
+                        { this.state.isLoading ?
+                            <CircularProgress thickness={7} style={{color:'#98c5e9'}} />
+                            :''
+                        }
+                    </div>
                 </div>
             </AdminLayout>
         );
