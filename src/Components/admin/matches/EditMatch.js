@@ -182,13 +182,35 @@ class EditMatch extends Component {
         })
     }
 
+    updateFields() {
+
+    }
+
     componentDidMount() {
         const matchId = this.props.match.params.id;
+        const getTeams = (match, type) => {
+            firebaseTeams.once('value').then(snapshot => {
+                const teams = firebaseLoop(snapshot);
+                const teamOptions = [];
+
+                snapshot.forEach((childSnapshot) => {
+                    teamOptions.push({
+                        key: childSnapshot.val().shortName,
+                        value: childSnapshot.val().shortName
+                    })
+                });
+                this.updateFields(match, teamOptions, teams, type, matchId)
+            })
+        };
 
         if(!matchId){
 
         } else {
-
+            firebaseDB.ref(`matches/${matchId}`).once('value')
+                .then((snapshot) => {
+                    const match = snapshot.val();
+                    getTeams(match, 'Edit Match')
+                })
         }
     }
 
