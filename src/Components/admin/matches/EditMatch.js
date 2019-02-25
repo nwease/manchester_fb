@@ -119,14 +119,19 @@ class EditMatch extends Component {
                 validationMessage: '',
                 showLabel: true
             },
-            results: {
+            result: {
                 element: 'select',
                 value: '',
                 config: {
                     label: 'Team Result',
                     name: 'select_result',
                     type: 'select',
-                    options: []
+                    options: [
+                        {keys: 'Win', value: 'Win'},
+                        {keys: 'Lose', value: 'Lose'},
+                        {keys: 'Draw', value: 'Draw'},
+                        {keys: 'N/A', value: 'N/A'}
+                    ]
                 },
                 validation: {
                     required: true
@@ -135,13 +140,17 @@ class EditMatch extends Component {
                 validationMessage: '',
                 showLabel: true
             },
-            gamePlayed: {
+            final: {
                 element: 'select',
                 value: '',
                 config: {
                     label: 'Game Played',
-                    name: 'gamePlayed_input',
-                    type: 'text'
+                    name: 'select_played',
+                    type: 'select',
+                    options: [
+                        {keys: 'Yes', value: 'Yes'},
+                        {keys: 'No', value: 'No'}
+                    ]
                 },
                 validation: {
                     required: true
@@ -229,6 +238,28 @@ class EditMatch extends Component {
                                     formData={this.state.formData.stadium}
                                     change={(element) => this.updateForm(element)}
                                 />
+                            </div>
+
+                            <div className='split_fields last'>
+                                <FormField
+                                    id={'result'}
+                                    formData={this.state.formData.result}
+                                    change={(element) => this.updateForm(element)}
+                                />
+
+                                <FormField
+                                    id={'final'}
+                                    formData={this.state.formData.final}
+                                    change={(element) => this.updateForm(element)}
+                                />
+                            </div>
+
+                            <div className='success_label'>{this.state.formSuccess}</div>
+                            {this.state.formError ? <div className='error_label'>ERROR</div> : ''}
+                            <div className='admin_submit'>
+                                <button onClick={(event) => this.submitForm(event)}>
+                                    {this.state.formType} Submit
+                                </button>
                             </div>
                         </form>
                     </div>
