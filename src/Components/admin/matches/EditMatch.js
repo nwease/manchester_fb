@@ -182,8 +182,26 @@ class EditMatch extends Component {
         })
     }
 
-    updateFields() {
+    updateFields(match, teamOptions, teams, type, matchId) {
+        const newFormData = {
+            ...this.state.formData
+        }
 
+        for (let key in newFormData){
+            if (match){
+                newFormData[key].value = match[key];
+                newFormData[key].valid = true;
+            }
+            if (key === 'local' || key === 'away'){
+                newFormData[key].config.options = teamOptions
+            }
+        }
+        this.setState({
+            matchId,
+            formType: type,
+            formData: newFormData,
+            teams
+        })
     }
 
     componentDidMount() {
@@ -310,7 +328,7 @@ class EditMatch extends Component {
                             {this.state.formError ? <div className='error_label'>ERROR</div> : ''}
                             <div className='admin_submit'>
                                 <button onClick={(event) => this.submitForm(event)}>
-                                    {this.state.formType} Submit
+                                    {this.state.formType}
                                 </button>
                             </div>
                         </form>
