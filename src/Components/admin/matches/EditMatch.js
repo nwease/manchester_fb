@@ -89,7 +89,68 @@ class EditMatch extends Component {
                 validationMessage: '',
                 showLabel: false
             },
-        }
+            referee: {
+                element: 'input',
+                value: '',
+                config: {
+                    label: 'Referee',
+                    name: 'referee_input',
+                    type: 'text'
+                },
+                validation: {
+                    required: true
+                },
+                valid: false,
+                validationMessage: '',
+                showLabel: true
+            },
+            stadium: {
+                element: 'input',
+                value: '',
+                config: {
+                    label: 'Stadium',
+                    name: 'stadium_input',
+                    type: 'text'
+                },
+                validation: {
+                    required: true
+                },
+                valid: false,
+                validationMessage: '',
+                showLabel: true
+            },
+            results: {
+                element: 'select',
+                value: '',
+                config: {
+                    label: 'Team Result',
+                    name: 'select_result',
+                    type: 'select',
+                    options: []
+                },
+                validation: {
+                    required: true
+                },
+                valid: false,
+                validationMessage: '',
+                showLabel: true
+            },
+            gamePlayed: {
+                element: 'select',
+                value: '',
+                config: {
+                    label: 'Game Played',
+                    name: 'gamePlayed_input',
+                    type: 'text'
+                },
+                validation: {
+                    required: true
+                },
+                valid: false,
+                validationMessage: '',
+                showLabel: true
+            },
+        },
     };
 
     render() {
@@ -154,6 +215,20 @@ class EditMatch extends Component {
                                         />
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className='split_fields'>
+                                <FormField
+                                    id={'referee'}
+                                    formData={this.state.formData.referee}
+                                    change={(element) => this.updateForm(element)}
+                                />
+
+                                <FormField
+                                    id={'stadium'}
+                                    formData={this.state.formData.stadium}
+                                    change={(element) => this.updateForm(element)}
+                                />
                             </div>
                         </form>
                     </div>

@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="445">
+              <caret line="141" column="45" lean-forward="true" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -61,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ui/FormField.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
+            <state relative-caret-position="1058">
               <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
             </state>
           </provider>
@@ -132,6 +132,11 @@
             <path>
               <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
               <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
@@ -210,7 +215,7 @@
       <workItem from="1550084710546" duration="188000" />
       <workItem from="1550689558005" duration="1814000" />
       <workItem from="1550738801005" duration="10395000" />
-      <workItem from="1550827361250" duration="7270000" />
+      <workItem from="1550827361250" duration="9682000" />
     </task>
     <task id="LOCAL-00001" summary="Began work on Header component.">
       <created>1547812018778</created>
@@ -492,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550833388104</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Messed around with team away results function.">
+      <created>1550835309351</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1550835309351</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88804000" />
+    <option name="totallyTimeSpent" value="91216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1205" y="23" width="715" height="1055" extended-state="0" />
@@ -515,7 +527,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.32095096" visible="true" weight="0.29567054" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.32095096" visible="true" weight="0.29567054" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.679049" side_tool="true" weight="0.29567054" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.312566" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
@@ -573,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started on PlayerCard Component." />
     <MESSAGE value="Continued working on PlayerCard Component." />
     <MESSAGE value="Made slight adjustment to PlayerCard Component inserting a brake in between." />
     <MESSAGE value="Started work on the animated cards." />
@@ -598,7 +609,8 @@
     <MESSAGE value="Finished table began work on edit function." />
     <MESSAGE value="Continued work on edit team function." />
     <MESSAGE value="Continued work on edit team functions and date functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued work on edit team functions and date functions." />
+    <MESSAGE value="Messed around with team away results function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Messed around with team away results function." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -629,13 +641,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -840,7 +845,7 @@
     <entry file="file://$PROJECT_DIR$/src/Routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -881,17 +886,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ui/FormField.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
+        <state relative-caret-position="1058">
           <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="81" column="40" lean-forward="true" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        <state relative-caret-position="445">
+          <caret line="141" column="45" lean-forward="true" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
