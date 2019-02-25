@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import AdminLayout from '../../../Hoc/AdminLayout';
 import FormField from "../../ui/FormField";
 import { validate } from "../../ui/miscellaneous";
-import { firebaseTeams, firebaseDB, firebaseMatches } from "../../../firebase";
+import {firebaseTeams, firebaseDB, firebaseMatches, firebase} from "../../../firebase";
 import { firebaseLoop } from "../../ui/miscellaneous";
 
 class EditMatch extends Component {
@@ -222,13 +222,42 @@ class EditMatch extends Component {
         };
 
         if(!matchId){
-
+            /// ADD MATCH
         } else {
             firebaseDB.ref(`matches/${matchId}`).once('value')
                 .then((snapshot) => {
                     const match = snapshot.val();
                     getTeams(match, 'Edit Match')
                 })
+        }
+    }
+
+    submitForm(event) {
+        event.preventDefault();
+
+        let submittedData = {};
+        let validForm = true;
+
+        for(let key in this.state.formData){
+            submittedData[key] = this.state.formData[key].value;
+            validForm = this.state.formData[key].valid && validForm;
+        }
+
+        this.state.teams.forEach((team) => {
+            if (team.shortName === submittedData.local){
+                submittedData['localThmb'] = team.localThmb
+            }
+            if (team.shortName === submittedData.away){
+                submittedData['awayThmb'] = team.awayThmb
+            }
+        });
+
+        if(validForm){
+            console.log(submittedData)
+        } else {
+            this.setState({
+                formError: true
+            })
         }
     }
 
