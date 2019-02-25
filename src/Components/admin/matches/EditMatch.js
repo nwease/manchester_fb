@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import AdminLayout from '../../../Hoc/AdminLayout';
 import FormField from "../../ui/FormField";
 import { validate } from "../../ui/miscellaneous";
+import { firebaseTeams, firebaseDB, firebaseMatches } from "../../../firebase";
+import { firebaseLoop } from "../../ui/miscellaneous";
 
 class EditMatch extends Component {
 
@@ -161,6 +163,34 @@ class EditMatch extends Component {
             },
         },
     };
+
+    updateForm(element) {
+        const newFormData = {...this.state.formData};
+        const newElement = {...newFormData[element.id]};
+
+        newElement.value = element.event.target.value;
+
+        let validData = validate(newElement);
+        newElement.valid = validData[0];
+        newElement.validationMessage = validData[0];
+
+        newFormData[element.id] = newElement;
+
+        this.setState({
+            formError: false,
+            formData: newFormData
+        })
+    }
+
+    componentDidMount() {
+        const matchId = this.props.match.params.id;
+
+        if(!matchId){
+
+        } else {
+
+        }
+    }
 
     render() {
         return (
