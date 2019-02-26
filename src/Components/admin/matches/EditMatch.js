@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import AdminLayout from '../../../Hoc/AdminLayout';
 import FormField from "../../ui/FormField";
 import { validate } from "../../ui/miscellaneous";
-import {firebaseTeams, firebaseDB, firebaseMatches, firebase} from "../../../firebase";
+import {firebaseTeams, firebaseDB, firebaseMatches} from "../../../firebase";
 import { firebaseLoop } from "../../ui/miscellaneous";
 
 class EditMatch extends Component {
