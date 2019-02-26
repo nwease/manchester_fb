@@ -185,7 +185,7 @@ class EditMatch extends Component {
     updateFields(match, teamOptions, teams, type, matchId) {
         const newFormData = {
             ...this.state.formData
-        }
+        };
 
         for (let key in newFormData){
             if (match){
@@ -204,14 +204,14 @@ class EditMatch extends Component {
         })
     }
 
-    componentDidMount() {
+    componentDidMount(){
         const matchId = this.props.match.params.id;
         const getTeams = (match, type) => {
-            firebaseTeams.once('value').then(snapshot => {
+            firebaseTeams.once('value').then(snapshot=>{
                 const teams = firebaseLoop(snapshot);
                 const teamOptions = [];
 
-                snapshot.forEach((childSnapshot) => {
+                snapshot.forEach((childSnapshot)=>{
                     teamOptions.push({
                         key: childSnapshot.val().shortName,
                         value: childSnapshot.val().shortName
@@ -232,6 +232,18 @@ class EditMatch extends Component {
         }
     }
 
+    successForm(message){
+        this.setState({
+            formSuccess: message
+        });
+
+        setTimeout(() => {
+            this.setState({
+                formSuccess: ''
+            });
+        }, 2000)
+    }
+
     submitForm(event) {
         event.preventDefault();
 
@@ -245,15 +257,24 @@ class EditMatch extends Component {
 
         this.state.teams.forEach((team) => {
             if (team.shortName === submittedData.local){
-                submittedData['localThmb'] = team.localThmb
+                submittedData['localThmb'] = team.thmb
             }
             if (team.shortName === submittedData.away){
-                submittedData['awayThmb'] = team.awayThmb
+                submittedData['awayThmb'] = team.thmb
             }
         });
 
         if(validForm){
-            console.log(submittedData)
+            if (this.state.formType === 'Edit Match'){
+                firebaseDB.ref(`matches/${this.state.matchId}`)
+                    .update(submittedData).then(() => {
+                        this.successForm('Correctly Updated');
+                }).catch((e) => {
+                    this.setState({ formError: true })
+                })
+            } else {
+                // add match
+            }
         } else {
             this.setState({
                 formError: true

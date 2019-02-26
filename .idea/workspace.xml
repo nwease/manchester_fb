@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/firebase.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="516">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="249" column="55" lean-forward="true" selection-start-line="249" selection-start-column="55" selection-end-line="249" selection-end-column="55" />
+            <state relative-caret-position="459">
+              <caret line="268" column="63" lean-forward="true" selection-start-line="268" selection-start-column="63" selection-end-line="268" selection-end-column="63" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#370#810#0" />
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/signin/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1249">
-              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -241,7 +241,7 @@
       <workItem from="1550084710546" duration="188000" />
       <workItem from="1550689558005" duration="1814000" />
       <workItem from="1550738801005" duration="10395000" />
-      <workItem from="1550827361250" duration="16072000" />
+      <workItem from="1550827361250" duration="18376000" />
     </task>
     <task id="LOCAL-00001" summary="Began work on Header component.">
       <created>1547812018778</created>
@@ -565,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551088263035</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Trying to add shortName thumbnails from DB. Not working so far.">
+      <created>1551089547862</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1551089547862</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97606000" />
+    <option name="totallyTimeSpent" value="99910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1205" y="23" width="715" height="1055" extended-state="0" />
@@ -646,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished Player Cards." />
     <MESSAGE value="Began working on Promotions." />
     <MESSAGE value="Continued working on Promotions." />
     <MESSAGE value="Worked on formfields." />
@@ -671,7 +677,8 @@
     <MESSAGE value="Continued working on form fields and setup of firebase to access DB." />
     <MESSAGE value="Worked on updating the fields for firebaseDB." />
     <MESSAGE value="Worked on editMatch." />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on editMatch." />
+    <MESSAGE value="Trying to add shortName thumbnails from DB. Not working so far." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to add shortName thumbnails from DB. Not working so far." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -944,7 +951,7 @@
     <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -954,7 +961,7 @@
     <entry file="file://$PROJECT_DIR$/src/Components/signin/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1249">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -963,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="249" column="55" lean-forward="true" selection-start-line="249" selection-start-column="55" selection-end-line="249" selection-end-column="55" />
+        <state relative-caret-position="459">
+          <caret line="268" column="63" lean-forward="true" selection-start-line="268" selection-start-column="63" selection-end-line="268" selection-end-column="63" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#370#810#0" />
