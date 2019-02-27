@@ -104,11 +104,15 @@ class EditPlayers extends Component {
         }
     }
 
-    updateForm(element) {
+    updateForm(element, content = '') {
         const newFormData = {...this.state.formData};
         const newElement = {...newFormData[element.id]};
 
-        newElement.value = element.event.target.value;
+        if (content === ''){
+            newElement.value = element.event.target.value;
+        } else {
+            newElement.value = content
+        }
 
         let validData = validate(newElement);
         newElement.valid = validData[0];
@@ -146,11 +150,12 @@ class EditPlayers extends Component {
 
     };
 
-    storeFilename = () => {
-
+    storeFilename = (filename) => {
+        this.updateForm({id: 'image'}, filename)
     };
 
     render() {
+        console.log(this.state.formData)
         return (
             <AdminLayout>
                 <div className='edit_players_dialog_wrapper'>
