@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ui/FileUploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ui/fileuploader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ui/FileUploader.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+            <state relative-caret-position="316">
+              <caret line="163" column="41" lean-forward="true" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -29,11 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ui/FileUploader.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/ui/fileuploader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +86,11 @@
         <option value="$PROJECT_DIR$/src/Components/admin/players/index.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js" />
         <option value="$PROJECT_DIR$/src/Routes.js" />
+        <option value="$PROJECT_DIR$/src/Components/ui/Fileuploader.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/FileUploader.js" />
+        <option value="$PROJECT_DIR$/src/Components/ui/fileUploader.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" />
+        <option value="$PROJECT_DIR$/src/Components/ui/fileuploader.js" />
       </list>
     </option>
   </component>
@@ -130,16 +137,7 @@
               <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="matches" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="nav" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,14 +205,7 @@
       <workItem from="1550084710546" duration="188000" />
       <workItem from="1550689558005" duration="1814000" />
       <workItem from="1550738801005" duration="10395000" />
-      <workItem from="1550827361250" duration="27746000" />
-    </task>
-    <task id="LOCAL-00004" summary="Started work on Body animation component.">
-      <created>1547995515174</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1547995515175</updated>
+      <workItem from="1550827361250" duration="31604000" />
     </task>
     <task id="LOCAL-00005" summary="Work on striped animation in the body component.">
       <created>1547998828673</created>
@@ -552,11 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551179699080</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Started on image file uploader.">
+      <created>1551194526127</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1551194526127</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109280000" />
+    <option name="totallyTimeSpent" value="113138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1205" y="23" width="715" height="1055" extended-state="0" />
@@ -633,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Continued work on form validation component." />
     <MESSAGE value="Set up success and error in form." />
     <MESSAGE value="Finished the form component." />
     <MESSAGE value="Setup sign-in class component." />
@@ -658,7 +655,8 @@
     <MESSAGE value="Began setup of Admin_Players route." />
     <MESSAGE value="Finished Player Admin started add players." />
     <MESSAGE value="Continued work on Add Players." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued work on Add Players." />
+    <MESSAGE value="Started on image file uploader." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started on image file uploader." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -894,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ui/FormField.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/signin/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1249">
@@ -951,19 +942,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ui/FormField.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1058">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
+        <state relative-caret-position="6578">
           <caret line="286" column="5" lean-forward="true" selection-start-line="286" selection-start-column="5" selection-end-line="286" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -971,17 +962,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ui/FileUploader.js">
+    <entry file="file://$PROJECT_DIR$/src/Routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="161">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+        <state relative-caret-position="316">
+          <caret line="163" column="41" lean-forward="true" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ui/fileuploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
