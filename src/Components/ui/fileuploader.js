@@ -29,7 +29,7 @@ class Fileuploader extends Component {
             .child(filename).getDownloadURL()
             .then(url => {
                 this.setState({fileURL: url})
-            })
+            });
 
         this.props.filename(filename)
     };
@@ -44,6 +44,15 @@ class Fileuploader extends Component {
         return null
     }
 
+    uploadAgain = () => {
+        this.setState({
+            name: '',
+            isUploading: false,
+            fileURL: ''
+        });
+        this.props.resetImage();
+    };
+
     render() {
         return (
             <div>
@@ -56,7 +65,7 @@ class Fileuploader extends Component {
                         <FileUploader
                             accept='image/*'
                             name='image'
-                            randomizeFileName
+                            randomizefilename
                             storageRef={firebase.storage().ref(this.props.dir)}
                             onUploadStart={this.handleUploadStart}
                             onUploadError={this.handleUploadError}

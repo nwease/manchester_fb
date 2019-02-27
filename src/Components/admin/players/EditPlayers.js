@@ -147,7 +147,13 @@ class EditPlayers extends Component {
     }
 
     resetImage = () => {
-
+        const newFormdata = {...this.state.formData};
+        newFormdata['image'].value = '';
+        newFormdata['image'].value = false;
+        this.setState({
+            defaultImg: '',
+            formData: newFormdata
+        })
     };
 
     storeFilename = (filename) => {
@@ -155,7 +161,6 @@ class EditPlayers extends Component {
     };
 
     render() {
-        console.log(this.state.formData)
         return (
             <AdminLayout>
                 <div className='edit_players_dialog_wrapper'>

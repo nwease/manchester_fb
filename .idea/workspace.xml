@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ui/fileuploader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ui/FileUploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ui/fileuploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ui/fileuploader.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="163" column="41" lean-forward="true" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+            <state relative-caret-position="229">
+              <caret line="149" column="53" lean-forward="true" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ui/fileuploader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="413">
+              <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -82,15 +81,15 @@
         <option value="$PROJECT_DIR$/src/Components/ui/FormField.js" />
         <option value="$PROJECT_DIR$/src/Components/signin/index.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/matches/index.js" />
-        <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/players/index.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/matches/EditMatch.js" />
         <option value="$PROJECT_DIR$/src/Routes.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/Fileuploader.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/FileUploader.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/fileUploader.js" />
-        <option value="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" />
+        <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/fileuploader.js" />
+        <option value="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" />
       </list>
     </option>
   </component>
@@ -205,21 +204,7 @@
       <workItem from="1550084710546" duration="188000" />
       <workItem from="1550689558005" duration="1814000" />
       <workItem from="1550738801005" duration="10395000" />
-      <workItem from="1550827361250" duration="31604000" />
-    </task>
-    <task id="LOCAL-00005" summary="Work on striped animation in the body component.">
-      <created>1547998828673</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1547998828673</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Worked on Text animation.">
-      <created>1548064660728</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1548064660728</updated>
+      <workItem from="1550827361250" duration="37110000" />
     </task>
     <task id="LOCAL-00007" summary="Finished Work on Text and Player animation.">
       <created>1548066094892</created>
@@ -550,11 +535,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551194526127</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Continued work on image file uploader.">
+      <created>1551259914298</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1551259914299</updated>
+    </task>
+    <task id="LOCAL-00055" summary="More work on image file uploader.">
+      <created>1551264649222</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1551264649223</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113138000" />
+    <option name="totallyTimeSpent" value="118644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1205" y="23" width="715" height="1055" extended-state="0" />
@@ -573,7 +572,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.32095096" visible="true" weight="0.29567054" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.32095096" visible="true" weight="0.29567054" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.679049" side_tool="true" weight="0.29567054" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.312566" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
@@ -631,8 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set up success and error in form." />
-    <MESSAGE value="Finished the form component." />
     <MESSAGE value="Setup sign-in class component." />
     <MESSAGE value="Finished sign-in component." />
     <MESSAGE value="Began initial setup of Dashboard Component." />
@@ -656,7 +653,9 @@
     <MESSAGE value="Finished Player Admin started add players." />
     <MESSAGE value="Continued work on Add Players." />
     <MESSAGE value="Started on image file uploader." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started on image file uploader." />
+    <MESSAGE value="Continued work on image file uploader." />
+    <MESSAGE value="More work on image file uploader." />
+    <option name="LAST_COMMIT_MESSAGE" value="More work on image file uploader." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -902,16 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/admin/matches/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1794">
@@ -972,20 +961,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
+    <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="163" column="41" lean-forward="true" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+        <state relative-caret-position="92">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ui/fileuploader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="413">
+          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="149" column="53" lean-forward="true" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="53" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
