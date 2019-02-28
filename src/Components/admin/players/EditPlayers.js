@@ -87,28 +87,58 @@ class EditPlayers extends Component {
                 validation: {
                     required: true
                 },
-                valid: true
+                valid: false
             }
         }
     };
 
-    componentDidMount() {
+    updateFields = (player, playerId, formType , defaultImg) =>{
+        const newFormdata = { ...this.state.formData};
+
+        for(let key in newFormdata){
+            newFormdata[key].value = player[key];
+            newFormdata[key].valid = true
+        }
+
+        this.setState({
+            playerId,
+            defaultImg,
+            formType,
+            formData: newFormdata
+        })
+    };
+
+    componentDidMount(){
         const playerId = this.props.match.params.id;
 
-        if (!playerId){
+        if(!playerId){
             this.setState({
-                formType: 'Add Player'
+                formType:'Add player'
             })
-        } else  {
+        } else {
+            firebaseDB.ref(`players/${playerId}`).once('value')
+                .then(snapshot => {
+                    const playerData = snapshot.val();
 
+                    firebase.storage().ref('players')
+                        .child(playerData.image).getDownloadURL()
+                        .then( url => {
+                            this.updateFields(playerData, playerId,'Edit player', url)
+                        }).catch( e => {
+                        this.updateFields({
+                            ...playerData,
+                            image:''
+                        },playerId,'Edit player','')
+                    })
+                })
         }
     }
 
-    updateForm(element, content = '') {
-        const newFormData = {...this.state.formData};
-        const newElement = {...newFormData[element.id]};
+    updateForm(element, content = ''){
+        const newFormdata = {...this.state.formData};
+        const newElement = { ...newFormdata[element.id]};
 
-        if (content === ''){
+        if(content === ''){
             newElement.value = element.event.target.value;
         } else {
             newElement.value = content
@@ -116,13 +146,13 @@ class EditPlayers extends Component {
 
         let validData = validate(newElement);
         newElement.valid = validData[0];
-        newElement.validationMessage = validData[0];
+        newElement.validationMessage = validData[1];
 
-        newFormData[element.id] = newElement;
+        newFormdata[element.id] = newElement;
 
         this.setState({
             formError: false,
-            formData: newFormData
+            formData: newFormdata
         })
     }
 
@@ -139,7 +169,10 @@ class EditPlayers extends Component {
 
         if(validForm) {
             if (this.state.formType === 'Edit Player') {
+                firebaseDB.ref(`players/${this.state.playerId}`)
+                    .update(submittedData).then(() => {
 
+                })
             } else {
                 firebasePlayers.push(submittedData).then(() => {
                     this.props.history.push('/admin_players')
@@ -160,7 +193,7 @@ class EditPlayers extends Component {
     resetImage = () => {
         const newFormdata = {...this.state.formData};
         newFormdata['image'].value = '';
-        newFormdata['image'].value = false;
+        newFormdata['image'].valid = false;
         this.setState({
             defaultImg: '',
             formData: newFormdata

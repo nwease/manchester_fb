@@ -20,7 +20,7 @@ class AdminPlayers extends Component {
 
     componentDidMount() {
         firebasePlayers.once('value').then((snapshot) => {
-            const players = firebaseLoop(snapshot)
+            const players = firebaseLoop(snapshot);
 
             this.setState({
                 isLoading: false,
@@ -48,33 +48,30 @@ class AdminPlayers extends Component {
                                 {this.state.players ? this.state.players.map((player, i) => (
                                     <TableRow key={i}>
                                         <TableCell>
-                                            <Link to={'/admin_players/add_players/${player.id}'}>
+                                            <Link to={`/admin_players/add_players/${player.id}`}>
                                                 {player.name}
                                             </Link>
                                         </TableCell>
 
                                         <TableCell>
-                                            <Link to={'/admin_players/add_players/${player.id}'}>
-                                                {player.lastname}
+                                            <Link to={`/admin_players/add_players/${player.id}`}>
+                                                {player.lastName}
                                             </Link>
                                         </TableCell>
 
                                         <TableCell>
-                                            <Link to={'/admin_players/add_players/${player.id}'}>
-                                                {player.number}
-                                            </Link>
+                                            {player.number}
                                         </TableCell>
 
                                         <TableCell>
-                                            <Link to={'/admin_players/add_players/${player.id}'}>
-                                                {player.position}
-                                            </Link>
+                                            {player.position}
                                         </TableCell>
                                     </TableRow>
                                 )) :null}
                             </TableBody>
                         </Table>
                     </Paper>
+
                     <div className='admin_progress'>
                         { this.state.isLoading ?
                             <CircularProgress thickness={7} style={{color:'#98c5e9'}} />
