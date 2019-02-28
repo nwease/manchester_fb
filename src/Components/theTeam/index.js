@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import PlayerCard from '../ui/PlayerCard';
+import React, { Component } from 'react';
+// import PlayerCard from '../ui/playerCard';
 import Fade from 'react-reveal/Fade';
 import Stripes from '../../Resources/images/stripes.png';
 import { firebasePlayers, firebase } from '../../firebase';
 import { firebaseLoop } from '../ui/miscellaneous';
 import { Promise } from 'core-js';
 
-class Teams extends Component {
+class TheTeam extends Component {
 
     state = {
         loading: true,
@@ -29,17 +29,22 @@ class Teams extends Component {
                     })
                 )
             }
-            Promise.all(promises)
+            Promise.all(promises).then(() => {
+                this.setState({
+                    loading: false,
+                    players
+                })
+            })
         })
     }
 
     render() {
         return (
-            <div>
-                <PlayerCard/>
+            <div className='the_team_container' style={{background: `url(${Stripes})`}}>
+                The Team
             </div>
         );
     }
 }
 
-export default Teams;
+export default TheTeam;
