@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import PlayerCard from '../ui/playerCard';
+import PlayerCard from "../ui/PlayerCard";
 import Fade from 'react-reveal/Fade';
 import Stripes from '../../Resources/images/stripes.png';
 import { firebasePlayers, firebase } from '../../firebase';
@@ -40,7 +40,7 @@ class TheTeam extends Component {
 
     render() {
         return (
-            <div className='the_team_container' style={{background: `url(${Stripes})`}}>
+            <div className='the_team_container' style={{background: `url(${Stripes}) repeat`}}>
                 The Team
             </div>
         );
