@@ -153,8 +153,19 @@ class EditPlayers extends Component {
         this.setState({
             formError: false,
             formData: newFormdata
-        })
+        });
+        setTimeout(() => {
+            this.setState({
+                formSuccess: ''
+            })
+        }, 2000)
     }
+
+    successForm = (message) => {
+        this.setState({
+            formSuccess: message
+        })
+    };
 
     submitForm(event) {
         event.preventDefault();
@@ -171,7 +182,9 @@ class EditPlayers extends Component {
             if (this.state.formType === 'Edit Player') {
                 firebaseDB.ref(`players/${this.state.playerId}`)
                     .update(submittedData).then(() => {
-
+                        this.successForm('Update Correctly');
+                }).catch(e=> {
+                    this.setState({formError: true})
                 })
             } else {
                 firebasePlayers.push(submittedData).then(() => {

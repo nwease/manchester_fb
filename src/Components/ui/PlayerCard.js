@@ -17,7 +17,7 @@ const PlayerCard = (props) => {
 
                 <div className="player_card_name">
                     <span>{props.name}</span>
-                    <span>{props.lastname}</span>
+                    <span>{props.lastName}</span>
                 </div>
             </div>
         </div>
