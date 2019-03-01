@@ -123,12 +123,12 @@ class EditPlayers extends Component {
                     firebase.storage().ref('players')
                         .child(playerData.image).getDownloadURL()
                         .then( url => {
-                            this.updateFields(playerData, playerId,'Edit player', url)
+                            this.updateFields(playerData, playerId,'Edit Player', url)
                         }).catch( e => {
                         this.updateFields({
                             ...playerData,
                             image:''
-                        },playerId,'Edit player','')
+                        },playerId,'Edit Player','')
                     })
                 })
         }
@@ -154,17 +154,17 @@ class EditPlayers extends Component {
             formError: false,
             formData: newFormdata
         });
-        setTimeout(() => {
-            this.setState({
-                formSuccess: ''
-            })
-        }, 2000)
     }
 
     successForm = (message) => {
         this.setState({
             formSuccess: message
-        })
+        });
+        setTimeout(() => {
+            this.setState({
+                formSuccess: ''
+            })
+        }, 2000)
     };
 
     submitForm(event) {
@@ -182,7 +182,7 @@ class EditPlayers extends Component {
             if (this.state.formType === 'Edit Player') {
                 firebaseDB.ref(`players/${this.state.playerId}`)
                     .update(submittedData).then(() => {
-                        this.successForm('Update Correctly');
+                        this.successForm('Updated Correctly');
                 }).catch(e=> {
                     this.setState({formError: true})
                 })

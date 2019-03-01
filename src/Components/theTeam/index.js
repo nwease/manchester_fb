@@ -41,7 +41,14 @@ class TheTeam extends Component {
     render() {
         return (
             <div className='the_team_container' style={{background: `url(${Stripes}) repeat`}}>
-                The Team
+                {this.state.loading ?
+                    <div>
+                        <div className='team_category_wrapper'>
+
+                        </div>
+                    </div>
+                    :null
+                }
             </div>
         );
     }

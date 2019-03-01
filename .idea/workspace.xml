@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/theTeam/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/theTeam/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,24 +18,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/theTeam/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+            <state relative-caret-position="563">
+              <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/firebase.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/theTeam/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="505">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,19 +94,19 @@
         <option value="$PROJECT_DIR$/src/Components/ui/fileUploader.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/fileuploader.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/players/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/PlayerCard.js" />
         <option value="$PROJECT_DIR$/src/Components/teams/index.js" />
         <option value="$PROJECT_DIR$/src/Routes.js" />
         <option value="$PROJECT_DIR$/src/Components/header_footer/Header.js" />
         <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/theTeam/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1205" />
-    <option name="y" value="23" />
+    <option name="x" value="1200" />
+    <option name="y" value="25" />
     <option name="width" value="715" />
     <option name="height" value="1055" />
   </component>
@@ -133,6 +134,21 @@
               <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="players" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,14 +217,7 @@
       <workItem from="1550689558005" duration="1814000" />
       <workItem from="1550738801005" duration="10395000" />
       <workItem from="1550827361250" duration="41800000" />
-      <workItem from="1551342819636" duration="11601000" />
-    </task>
-    <task id="LOCAL-00013" summary="Continued work on the Matches Block Component.">
-      <created>1548152692062</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1548152692062</updated>
+      <workItem from="1551342819636" duration="15562000" />
     </task>
     <task id="LOCAL-00014" summary="More work on the Matches Block Component.">
       <created>1548154830056</created>
@@ -546,14 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551380035902</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Working on firebase errors.">
+      <created>1551382079155</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1551382079158</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134935000" />
+    <option name="totallyTimeSpent" value="138896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1205" y="23" width="715" height="1055" extended-state="0" />
+    <frame x="1200" y="25" width="715" height="1055" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34026745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -626,7 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Worked on setting up matches table." />
     <MESSAGE value="Finished table began work on edit function." />
     <MESSAGE value="Continued work on edit team function." />
     <MESSAGE value="Continued work on edit team functions and date functions." />
@@ -651,7 +666,8 @@
     <MESSAGE value="finished working on some bugs in image upload. Started with Teams route." />
     <MESSAGE value="worked on setting up promises for team route." />
     <MESSAGE value="Working on some more bugs with the database and teams." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on some more bugs with the database and teams." />
+    <MESSAGE value="Working on firebase errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on firebase errors." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -930,16 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1074">
-          <caret line="158" column="31" lean-forward="true" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ui/fileuploader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-921">
@@ -979,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="143">
           <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -989,10 +995,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/theTeam/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        <state relative-caret-position="505">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/images/players/player_to_upload/DEF/aymeric_laporte.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
