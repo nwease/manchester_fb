@@ -17,7 +17,7 @@ a {
     background: #0d1831;
 }
 
-.bck_light_blue {
+.bck_lblue {
     background: #98c5e9;
 }
 
@@ -35,7 +35,7 @@ input {
     font-size: 17px;
     padding: 8px;
     border-radius: 3px;
-    font-family: Roboto, serif;
+    font-family: Roboto;
     font-weight: 300;
     width: 100%;
     box-sizing: border-box;
@@ -130,6 +130,7 @@ button {
     padding: 20px;
     background-size: 5px 5px !important;
     min-height: 100vh;
+    text-align: center;
     font-size: 90px;
     font-family: 'Righteous', cursive;
     color: #d5ebfe;
@@ -152,7 +153,7 @@ footer .img_cover{
 }
 
 footer .footer_discl {
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 
 
@@ -161,8 +162,9 @@ footer .footer_discl {
 ===============================*/
 
 .featured_wrapper {
+    margin: 0 auto;
     width: 1280px;
-    margin: 90px auto 0;
+    margin-top: 90px;
     height: 800px;
     overflow: hidden;
 }
@@ -303,7 +305,7 @@ footer .footer_discl {
     clear: both;
 }
 
-.match_box_big .block_wrapper {
+.match_box_big .block_wraper {
     display: inline-block;
     margin-right: 50px;
     float: left;
@@ -331,7 +333,7 @@ footer .footer_discl {
     font-weight: 500;
 }
 
-.block_wrapper.nfo {
+.block_wraper.nfo {
     border-left: 1px solid #98c6e9;
     height: 102px;
     padding-left: 10px;
@@ -339,8 +341,8 @@ footer .footer_discl {
     color: #5e5e5e;
 }
 
-.block_wrapper.nfo div {
-    margin: 5px 0;
+.block_wraper.nfo div {
+    margin: 5px 0px;
 }
 
 .match_filters {
@@ -383,23 +385,23 @@ footer .footer_discl {
 ===============================*/
 
 
-.home_meet_players {
+.home_meetplayers { 
     background: #ffffff;
 }
 
-.home_meet_players_wrapper {
+.home_meetplayers_wrapper {
     padding-bottom: 100px;
     min-height: 600px;
 }
 
-.home_meet_players .home_card_wrapper {
+.home_meetplayers .home_card_wrapper {
     position: relative;
     float: left;
     width: 630px;
     min-height: 600px;
 }
 
-.home_meet_players .home_text_wrapper {
+.home_meetplayers .home_text_wrapper {
     float: right;
     width: 390px;
 }
@@ -414,9 +416,9 @@ footer .footer_discl {
     border: 1px solid #ececec;
     width: 300px;
     padding: 10px 10px 20px 10px;
-    font-family: 'Righteous', serif;
+    font-family: 'Righteous';
 }
-.player_card_wrapper .player_card_thumbnail {
+.player_card_wrapper .player_card_thmb {
     border: 1px solid #eeeeee;
     width:100%;
     height:250px;
@@ -466,6 +468,7 @@ footer .footer_discl {
 
 .promotion_wrapper .promotion_animation .left { 
     text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 150px;
     font-family: 'Righteous', cursive;
     flex-grow: 1;
@@ -496,7 +499,7 @@ footer .footer_discl {
     color: #4e4e4e;
 }
 
-.promotion_wrapper .enroll_disclaimer {
+.promotion_wrapper .enroll_discl {
     font-weight: 300;
     font-size: 12px;
     width: 271px;
@@ -583,14 +586,14 @@ footer .footer_discl {
 }
 
 .admin_container h2 {
-    margin: 0 0 50px 0;
+    margin: 0px 0px 50px 0px;
     border-bottom: 1px solid #dbdbdb;
     color: #414141;
     font-size: 40px;
 }
 
-.edit_match_dialog_wrapper,
-.edit_players_dialog_wrapper {
+.editmatch_dialog_wrapper,
+.editplayers_dialog_wrapper {
     padding: 20px;
     width: 480px;
 }
@@ -649,24 +652,24 @@ footer .footer_discl {
             SIGN IN
 ===============================*/
 
-.sign-in_wrapper {
+.signin_wrapper {
     margin-top: 96px;
     padding: 20px;
     min-height: 70VH;
     text-align: center;
 }
 
-.sign-in_wrapper form {
+.signin_wrapper form {
     width: 350px;
     margin: 0 auto;
 }
 
-.sign-in_wrapper form button {
+.signin_wrapper form button {
     width: 100%;
     padding: 10px;
 }
 
-.sign-in_wrapper h2 {
+.signin_wrapper h2 {
     font-family: 'Righteous', cursive;
     color: #98c6e9;
     font-size: 50px;

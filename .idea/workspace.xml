@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0b8391-71b5-43e7-b352-22d39272b24f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/theMatches/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/theMatches/matchesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/theTeam/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/theTeam/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ui/PlayerCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ui/PlayerCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/theMatches/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+            <state relative-caret-position="651">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -30,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/theTeam/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/theMatches/table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="1173">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -42,10 +47,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ui/PlayerCard.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/theMatches/matchesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="138">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/Components/ui/matches_block.js" />
         <option value="$PROJECT_DIR$/src/Components/home/meetPlayers/index.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/playerCard.js" />
-        <option value="$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js" />
         <option value="$PROJECT_DIR$/src/Components/home/index.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/FormFields.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/miscellaneous.js" />
@@ -94,13 +110,17 @@
         <option value="$PROJECT_DIR$/src/Components/ui/fileUploader.js" />
         <option value="$PROJECT_DIR$/src/Components/ui/fileuploader.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/players/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/ui/PlayerCard.js" />
         <option value="$PROJECT_DIR$/src/Components/teams/index.js" />
-        <option value="$PROJECT_DIR$/src/Routes.js" />
         <option value="$PROJECT_DIR$/src/Components/header_footer/Header.js" />
         <option value="$PROJECT_DIR$/src/firebase.js" />
-        <option value="$PROJECT_DIR$/src/Components/theTeam/index.js" />
         <option value="$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js" />
+        <option value="$PROJECT_DIR$/src/Components/ui/PlayerCard.js" />
+        <option value="$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js" />
+        <option value="$PROJECT_DIR$/src/Components/theTeam/index.js" />
+        <option value="$PROJECT_DIR$/src/Routes.js" />
+        <option value="$PROJECT_DIR$/src/Components/theMatches/table.js" />
+        <option value="$PROJECT_DIR$/src/Components/theMatches/matchesList.js" />
+        <option value="$PROJECT_DIR$/src/Components/theMatches/index.js" />
       </list>
     </option>
   </component>
@@ -116,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,20 +159,13 @@
               <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manchester_fb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manchester_fb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="players" type="462c0819:PsiDirectoryNode" />
+              <item name="theMatches" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,14 +229,8 @@
       <workItem from="1550689558005" duration="1814000" />
       <workItem from="1550738801005" duration="10395000" />
       <workItem from="1550827361250" duration="41800000" />
-      <workItem from="1551342819636" duration="15562000" />
-    </task>
-    <task id="LOCAL-00014" summary="More work on the Matches Block Component.">
-      <created>1548154830056</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1548154830057</updated>
+      <workItem from="1551342819636" duration="20817000" />
+      <workItem from="1551447814244" duration="2228000" />
     </task>
     <task id="LOCAL-00015" summary="Finished the Block Matches Component.">
       <created>1548157492111</created>
@@ -562,14 +568,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551382079158</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Fixed firebase errors.">
+      <created>1551433392445</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1551433392445</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138896000" />
+    <option name="totallyTimeSpent" value="146379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1200" y="25" width="715" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34026745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -584,9 +598,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.32095096" weight="0.29567054" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.32095096" visible="true" weight="0.29567054" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.679049" side_tool="true" weight="0.29567054" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.312566" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.312566" />
       <window_info anchor="bottom" id="GitLabIntegration" order="11" />
       <window_info anchor="bottom" id="Quokka" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32982087" />
@@ -642,7 +656,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished table began work on edit function." />
     <MESSAGE value="Continued work on edit team function." />
     <MESSAGE value="Continued work on edit team functions and date functions." />
     <MESSAGE value="Messed around with team away results function." />
@@ -667,7 +680,8 @@
     <MESSAGE value="worked on setting up promises for team route." />
     <MESSAGE value="Working on some more bugs with the database and teams." />
     <MESSAGE value="Working on firebase errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on firebase errors." />
+    <MESSAGE value="Fixed firebase errors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed firebase errors." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js" />
@@ -752,16 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -872,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4512">
-          <caret line="651" column="18" selection-start-line="651" selection-start-column="18" selection-end-line="651" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -956,16 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/header_footer/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -973,13 +960,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ui/PlayerCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -993,23 +973,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/images/players/player_to_upload/DEF/aymeric_laporte.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/home/meetPlayers/Cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2990">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15042">
+          <caret line="654" column="17" selection-start-line="654" selection-start-column="17" selection-end-line="654" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ui/PlayerCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/theTeam/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="138">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/images/players/player_to_upload/DEF/aymeric_laporte.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/admin/players/EditPlayers.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/theMatches/table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+        <state relative-caret-position="1173">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/theMatches/matchesList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/theMatches/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

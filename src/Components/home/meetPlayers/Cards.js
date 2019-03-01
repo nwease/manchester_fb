@@ -27,7 +27,7 @@ class HomeCards extends Component {
         ]
     };
 
-    showAnimatedCards = () => (
+    showAnimateCards = () => (
         this.state.cards.map((card, i) => (
             <Animate
                 key={i}
@@ -56,7 +56,8 @@ class HomeCards extends Component {
                                 number= '30'
                                 name= 'Nicholas'
                                 lastname= 'Otamendi'
-                                bck={Otamendi} />
+                                bck={Otamendi}
+                            />
                         </div>
                     )
                 }}
@@ -67,7 +68,7 @@ class HomeCards extends Component {
     render() {
         return (
             <div>
-                {this.showAnimatedCards()}
+                {this.showAnimateCards()}
             </div>
         );
     }
