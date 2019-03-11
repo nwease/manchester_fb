@@ -34,8 +34,9 @@ class TheMatches extends Component {
                 <div className='the_matches_wrapper'>
                     <div className='left'>
                         <div className='match_filters'>
-                            <MatchesList/>
+
                         </div>
+                        <MatchesList matches={state.filterMatches}/>
                     </div>
 
                     <div className='right'>
