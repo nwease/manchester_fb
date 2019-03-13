@@ -27,6 +27,18 @@ class TheMatches extends Component {
         })
     }
 
+    showPlayed = (Played) => {
+        const list = this.state.matches.filter((match) => {
+            return match.final === Played
+        });
+
+        this.setState({
+            filterMatches: Played === 'ALL' ? this.state.matches : list,
+            playerFilter: Played,
+            resultFilter: 'All'
+        })
+    };
+
     render() {
         const state = this.state;
         return (
@@ -34,7 +46,27 @@ class TheMatches extends Component {
                 <div className='the_matches_wrapper'>
                     <div className='left'>
                         <div className='match_filters'>
+                            <div className='match_filters_box'>
+                                <div className='tag'>
+                                    SHOW MATCH
+                                </div>
 
+                                <div className='container'>
+                                    <div className={`option`}
+                                         onClick={() => this.showPlayed('All')}>
+                                        All
+                                    </div>
+
+                                    <div className={`option`}
+                                         onClick={() => this.showPlayed('Yes')}>
+                                        Played
+                                    </div>
+
+                                    <div className={`option`} onClick={() => this.showPlayed('No')}>
+                                        Not Played
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <MatchesList matches={state.filterMatches}/>
                     </div>
